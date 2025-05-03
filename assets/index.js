@@ -3,14 +3,14 @@ const __vite__mapDeps = (
   m = __vite__mapDeps,
   d = m.f ||
     (m.f = [
-      'assets/AboutView.js',
-      'assets/AboutView.css',
-      'assets/Contact.js',
-      'assets/Contact.css',
-      'assets/Services.js',
-      'assets/Services.css',
-      'assets/Products.js',
-      'assets/Products.css',
+      './AboutView.js',
+      './AboutView.css',
+      './Contact.js',
+      './Contact.css',
+      './Services.js',
+      './Services.css',
+      './Products.js',
+      './Products.css',
     ]),
 ) => i.map((i) => d[i])
 ;(function () {
